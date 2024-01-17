@@ -1,3 +1,1 @@
-
-
-[Portfolio(https://raghulingalaportfolioo.netlify.app/)]
+[Portfolio](https://raghulingalaportfolioo.netlify.app/)
