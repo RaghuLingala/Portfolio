@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6aac2199a3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="logo"><span class="spl-color">R</span>aghu</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#services">Services</a></li> -->
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+      <div class="header-text">
+        <p>Software Developer</p>
+        <h1>
+          Hi, Im <span class="spl-color">Raghu</span><br />
+          Lingala From India
+        </h1>
+      </div>
+    </div>
+
+    <!-- -------About------------- -->
+
+    <div id="about">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/about.jpg" class="about-image" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            To work as a Software Engineer applying my knowledge in the field of
+            testing, designing, and maintenance to cater to the specific needs
+            of the people. I wish to work in a team of motivated individuals who
+            wish to work towards the advancement of the company and its goals.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <!-- <span>Software Developer</span><br />Designing Web Applications
+              </li>
+              <li>
+                <span>Web Development</span><br />Developing Web Applications
+              </li>
+              <li>
+                <span>App Development</span><br />Building Andriod/IOS
+                Applications
+              </li> -->
+
+
+              <li>
+                <span>Frontend: </span><br />HTML, CSS, Bootstrap, JavaScript 
+              </li>
+
+              <li>
+                <span>Backend: </span><br />Python
+              </li>
+
+              <li>
+                <span>Databases: </span><br />SQLite
+              </li>
+
+              
+
+              
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>Aug, 2023 - Jan, 2024</span><br />Software Developer at
+                Techno Identity
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span> 2019 - 2022 </span><br />BSC from Vignana Jyothi
+                Institute of Arts and Sciences, Secunderabad
+              </li>
+              <li>
+                <span>2017 - 2019</span><br />Intermediate from Sri Vijaya Sai
+                Junior College, Bodhan, Telangana
+              </li>
+              <li>
+                <span>2017</span><br />SSC from Sri Vishwa Shanthi High School,
+                Nizamabad, Telangana
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------Services--------- -->
+    <!-- <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+              debitis quia aliquam molestiae illum officia tempora, placeat a
+              non voluptate doloribus deleniti! Aspernatur animi quas ex dolore
+              maxime expedita doloremque?
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+              debitis quia aliquam molestiae illum officia tempora, placeat a
+              non voluptate doloribus deleniti! Aspernatur animi quas ex dolore
+              maxime expedita doloremque?
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+              debitis quia aliquam molestiae illum officia tempora, placeat a
+              non voluptate doloribus deleniti! Aspernatur animi quas ex dolore
+              maxime expedita doloremque?
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- --------------Portfolio------------ -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Foodmunch.png" />
+            <div class="layer">
+              <h3>Food Munch Website</h3>
+              <!-- <p>
+                Discover the world of food with this responsive website that
+                showcases a comprehensive list of food items.<br />
+                ● Designed with a user-centric approach, this website features
+                HTML structure elements and Bootstrap components to ensure a
+                seamless experience.<br />
+                ● Get a closer look at the food items with product videos,
+                available at the click of a button.
+              </p> -->
+              <a href="https://raghusfoodmunch.ccbp.tech/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Todo Application.png" />
+            <div class="layer">
+              <h3>Todo's Application</h3>
+              <!-- <p>
+                A robust task tracking system with CRUD capabilities, crafted to
+                simplify task management.<br />
+                ● Designed with HTML, CSS and Bootstrap to ensure a
+                user-friendly interface for managing tasks.<br />
+                ● Dynamic UI updates through JavaScript event listeners and DOM
+                operations for seamless CRUD operations.<br />
+                ● Secure task persistence through local storage methods,
+                ensuring that tasks are never lost.
+              </p> -->
+              <a href="https://raghustodo.ccbp.tech/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Tourism website.png" />
+            <div class="layer">
+              <h3>Toursim Website</h3>
+              <!-- <p>
+                
+              </p> -->
+              <a href="https://raghutourismweb.ccbp.tech/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Wikipedia search.png" />
+            <div class="layer">
+              <h3>Wikipedia Search</h3>
+              <!-- <p>
+                A robust task tracking system with CRUD capabilities, crafted to
+                simplify task management.<br />
+                ● Designed with HTML, CSS and Bootstrap to ensure a
+                user-friendly interface for managing tasks.<br />
+                ● Dynamic UI updates through JavaScript event listeners and DOM
+                operations for seamless CRUD operations.<br />
+                ● Secure task persistence through local storage methods,
+                ensuring that tasks are never lost.
+              </p> -->
+              <a href="https://raghuswiki.ccbp.tech/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Responsive Portfolio.png" />
+            <div class="layer">
+              <h3>Responsive Portfolio</h3>
+              <!-- <p>
+                A robust task tracking system with CRUD capabilities, crafted to
+                simplify task management.<br />
+                ● Designed with HTML, CSS and Bootstrap to ensure a
+                user-friendly interface for managing tasks.<br />
+                ● Dynamic UI updates through JavaScript event listeners and DOM
+                operations for seamless CRUD operations.<br />
+                ● Secure task persistence through local storage methods,
+                ensuring that tasks are never lost.
+              </p> -->
+              <a href="https://portfolioraghu.ccbp.tech/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Counter Application.png" />
+            <div class="layer">
+              <h3>Counter Application</h3>
+              <!-- <p>
+                A robust task tracking system with CRUD capabilities, crafted to
+                simplify task management.<br />
+                ● Designed with HTML, CSS and Bootstrap to ensure a
+                user-friendly interface for managing tasks.<br />
+                ● Dynamic UI updates through JavaScript event listeners and DOM
+                operations for seamless CRUD operations.<br />
+                ● Secure task persistence through local storage methods,
+                ensuring that tasks are never lost.
+              </p> -->
+              <a href="https://raghucounter.ccbp.tech/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ----------------Contact------------------ -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact</h1>
+            <p>
+              <i class="fa-regular fa-envelope mail-edit"></i>
+              raghuchinna008@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone mail-edit"></i> 7794049613</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/raghu.patel.3154284"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/Raghu_patel__"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/raghu-lingala/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/raghu_patel__/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/RaghuLingala"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a
+              href="images/Raghu_Lingala_Resume.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input
+                type="text"
+                name="'Name"
+                placeholder="Your Name"
+                required
+              />
+              <input type="email" name="'Email" placeholder="Your Email" />
+              <input type="Message" rows="6" placeholder="Your Message" />
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ Raghu Lingala Made with <i class="fas fa-heart"></i></p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
